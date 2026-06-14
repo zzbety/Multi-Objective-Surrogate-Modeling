@@ -1,0 +1,9 @@
+target,model,type,rmse,mae,r2,best_params
+metric_flops,GradientBoosting,Base,2.1657893296831823,0.6595187925666498,0.9959534231914807,
+metric_flops,GradientBoosting,Tuned,2.1155098822260388,0.6369256678229925,0.9961391272717277,"{'reg__subsample': 1.0, 'reg__n_estimators': 600, 'reg__min_samples_split': 2, 'reg__min_samples_leaf': 4, 'reg__max_depth': 3, 'reg__learning_rate': 0.2}"
+metric_latency,LightGBM,Base,0.0005228154606809809,0.00039270939419779906,0.9663074858126631,
+metric_latency,LightGBM,Tuned,0.00051590824597481,0.0003885279786881341,0.9671918671623889,"{'reg__subsample': 1.0, 'reg__num_leaves': 31, 'reg__n_estimators': 500, 'reg__max_depth': 3, 'reg__learning_rate': 0.05, 'reg__colsample_bytree': 1.0}"
+metric_runtime,LightGBM,Base,0.37408888977221644,0.2963921189879074,0.994298528041422,
+metric_runtime,LightGBM,Tuned,0.35183447319141975,0.28055534545534594,0.9949567075540298,"{'reg__subsample': 1.0, 'reg__num_leaves': 31, 'reg__n_estimators': 500, 'reg__max_depth': 3, 'reg__learning_rate': 0.05, 'reg__colsample_bytree': 1.0}"
+metric_valid_error,XGBoost,Base,0.010092304640853745,0.0058486673952515755,0.9940388840586718,
+metric_valid_error,XGBoost,Tuned,0.007705637204508486,0.00437397141392558,0.9965249266051729,"{'reg__subsample': 0.8, 'reg__n_estimators': 500, 'reg__max_depth': 7, 'reg__learning_rate': 0.1, 'reg__colsample_bytree': 1.0}"
