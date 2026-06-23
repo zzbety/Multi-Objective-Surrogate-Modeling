@@ -83,8 +83,9 @@ Two objective pairs from the 4D Pareto front. Green triangles (ESPF) sit close t
 
 Venn diagram of architecture IDs across TPF, ESPF, and SPF. **36 architectures** appear in all three sets — the core trade-off solutions every method agrees on.
 
-![Pareto set overlap](outputs/figures/fg06_venn_diagram.png)
-
+<p align="center">
+  <img src="outputs/figures/fg06_venn_diagram.png" width="50%" alt="Pareto set overlap"/>
+</p>
 ---
 
 ### Rank preservation after verification
